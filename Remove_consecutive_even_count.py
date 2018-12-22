@@ -1,4 +1,4 @@
-""" Question: Question Given a string, iteratively remove consecutive duplicate characters of even count from the string, 
+""" Question: Given a string, iteratively remove consecutive duplicate characters of even count from the string, 
 starting from the front. The output string. should not have any consecutive duplicate characters of even count. See the following examples.
 
 I/P:     XYZZYYYZX
