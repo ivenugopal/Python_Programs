@@ -14,12 +14,10 @@ strng = input("Please enter the input string: ")
 
 def run(strng):
     finalList = [match[0] for match in re.findall(r'((\w)\2{0,})', strng)]
-    print(finalList)
     for indx,txt in enumerate(finalList):
         if findnumberisdivisble(len(txt)):
             finalList.pop(indx)
             strng = ''.join(finalList)
-            print(strng)
             break;
     lengthList = [len(match[0]) for match in re.findall(r'((\w)\2{0,})', strng)]
     if findnumberisdivisble(lengthList):
