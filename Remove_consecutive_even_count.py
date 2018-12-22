@@ -1,4 +1,6 @@
-'''
+""" Question: Question Given a string, iteratively remove consecutive duplicate characters of even count from the string, 
+starting from the front. The output string. should not have any consecutive duplicate characters of even count. See the following examples.
+
 I/P:     XYZZYYYZX
 O/P:     XZX
 
@@ -6,8 +8,12 @@ I/P:     CBBBAAAABBBCCC
 O/P:     Empty String
 
 I/P:     AZZZXXZYYYDDDDYZZZ
-O/P:  AZZZ
-'''
+O/P:     AZZZ
+
+I/P:     YYYZZZ
+O/P:     YYYZZZ
+
+"""
 
 import re
 
