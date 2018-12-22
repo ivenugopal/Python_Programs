@@ -10,7 +10,6 @@ O/P:  AZZZ
 '''
 
 import re
-strng = input("Please enter the input string: ")
 
 def run(strng):
     finalList = [match[0] for match in re.findall(r'((\w)\2{0,})', strng)]
@@ -40,4 +39,5 @@ def findnumberisdivisble(numberList):
             
 
 if __name__ == '__main__':
-    run('XYZZYYYZX')
+    strng = input("Please enter the input string: ")
+    run(strng)
